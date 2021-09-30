@@ -10,10 +10,6 @@ function Aluno(nome, qtFaltas, notas){
 
     };
     this.totFaltas = () => this.qtFaltas += 1;
-    
-    // this.faltas = function () {
-    // this.qtdFaltas += 1;
-    //}
 }
 
 
