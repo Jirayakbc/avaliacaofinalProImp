@@ -9,9 +9,11 @@ function Aluno(nome, qtFaltas, notas){
     return media;
 
     };
-    this.faltas = function () {
-    this.qtdFaltas += 1;
-    }
+    this.totFaltas = () => this.qtFaltas += 1;
+    
+    // this.faltas = function () {
+    // this.qtdFaltas += 1;
+    //}
 }
 
 
