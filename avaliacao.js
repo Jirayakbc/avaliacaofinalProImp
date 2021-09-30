@@ -10,9 +10,8 @@ function Aluno(nome, qtFaltas, notas){
 
     };
     this.totFaltas = () => this.qtFaltas += 1;
+
 }
-
-
 
 
 module.exports = Aluno;

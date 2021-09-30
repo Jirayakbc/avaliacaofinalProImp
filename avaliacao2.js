@@ -1,7 +1,7 @@
 const Aluno = require('./avaliacao');
-let turma = require('./avaliacao')
+let turma = require('./avaliacao');
 
-let listaAlunos = require('./teste')
+let listaAlunos = require('./teste');
 
 function Curso(nCurso, aprovacao, maxFaltas, novaLista) {
     this.nCurso = nCurso;
@@ -14,8 +14,8 @@ function Curso(nCurso, aprovacao, maxFaltas, novaLista) {
         // (new estudantes.AddAluno(nome, qtdfaltas, notas))
     }
 
-    this.calculaAprovacao = function (turma) {
-        if (turma.calcularMedia() >= this.aprovacao && turma.qtdfaltas < this.maxFaltas) {
+    this.calculaAprovacao = function (ava) {
+        if (ava.calcularMedia() >= this.aprovacao && ava.qtdfaltas < this.maxFaltas) {
             return true;
         } else if (Aluno.calcularMedia() >= this.aprovacao && Aluno.qtdfaltas == this.maxFaltas) {
             if (Aluno.calcularMedia() >= (this.aprovacao * 1.1)) {

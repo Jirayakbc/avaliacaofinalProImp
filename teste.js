@@ -12,7 +12,10 @@ let listaAlunos = [aluno1, aluno2, aluno3, aluno4];
 
 // console.log(aluno1);
 // console.log(cursos)
+
+// let cursos = cursos;
 console.log(aluno1.calcularMedia().toFixed(2));
 console.log(aluno1.totFaltas());
+// console.log(aluno1.calculaAprovacao())
 
 module.exports = listaAlunos;
