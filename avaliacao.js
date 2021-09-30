@@ -14,4 +14,5 @@ function Aluno(nome, qtFaltas, notas){
 }
 
 
+
 module.exports = Aluno;
