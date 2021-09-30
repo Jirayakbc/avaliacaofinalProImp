@@ -1,4 +1,6 @@
-const turma = require('./avaliacao')
+let turma = require('./avaliacao')
+
+let listaAlunos = require('./teste')
 
 function Curso(nCurso, aprovacao, maxFaltas, novaLista) {
     this.nCurso = nCurso;
@@ -15,15 +17,15 @@ function Curso(nCurso, aprovacao, maxFaltas, novaLista) {
             return true;
         } else if (turma.calcularMedia() >= this.aprovacao && turma.qtdfaltas == this.maxFaltas) {
             if (turma.calcularMedia() >= (this.aprovacao * 1.1)) {
-                return true;;
-            } else return false;;
+                return true;
+            } else return false;
         }
-        else return false;;
+        else return false;
 
     }
 }
 
 let programacao = new Curso("Programacao Interativa", 7, 3, turma);
-
 console.log(programacao)
 
+module.exports = Curso;
