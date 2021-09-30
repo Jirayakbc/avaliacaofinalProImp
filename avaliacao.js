@@ -16,3 +16,7 @@ function Aluno(nome, qtFaltas, notas){
 
 
 module.exports = Aluno;
+
+
+// Felipe Roberto Rocha, Turma 1. Professor, desculpe a demora, acabei fazendo durante o horario do trabalho
+// Realizei de algumas maneiras para entender e aplicar a lógica conforme solicitadodo.
