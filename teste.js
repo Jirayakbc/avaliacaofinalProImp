@@ -11,7 +11,7 @@ let listaAlunos = [aluno1, aluno2, aluno3, aluno4];
 // console.log(listaAlunos)
 
 // console.log(aluno1);
-console.log(aluno1.calcularMedia());
+console.log(aluno1.calcularMedia().toFixed(2));
 console.log(aluno1.faltas());
 
 module.exports = listaAlunos;
